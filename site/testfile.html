@@ -22,25 +22,97 @@
 			padding : 10px;
 			font-family : "Georgia";
 		}
+		#Linkedin, #Github, #Youtube, #Gmail {
+			font-family : "Cambria";
+			text-decoration : none;
+			visibility: none;
+			position : relative;
+			bottom : 4px;
+			left : 8px;
+			color : black;
+		}		
+		h2 {
+			font-family : "Cambria";
+		}
+		#paboutme {
+			font-family : "Cambria";
+		}
+		#skills {
+			font-family : "Cambria";
+		}
+		.edu:hover  {
+			background-color: #8dc470;
+			color : black
+			border : 2px solid;
+			padding : 5px;
+		}
+		.edu .course {
+			font-size : 18px;
+			font-weight : 800;
+			font-family: "Garamond";
+		}
+		.edu .year {
+			font-family : "Calibri";
+			color : #171716;
+			border-top : 2px solid #2d2e2c;
+		}
+		.edu .insti, .grade {
+			font-family : "Calibri";
+			color : #171716;
+		}
+
 	</style>
 </head>
 <body>
 		<h1>VARUNKUMAR R</h1>
 
-		<h4>Contact Me : </h4>
+		<h2><br>About me : </h2>
+		<img id = "paboutme" src = "prof.jpeg" height = "200", width = "200" border = "3px" ><br><br>I'm R Varunkumar.<br> I am currently pursuing M.Sc Computer Science Course in College of Engineering Guindy. </img>
 
-		<a href = "https://www.linkedin.com/in/varunkumar-raman-6252b6240/" target = "_blank" title =  "Linked In">Linked In &nbsp</a>
+		<h2>Skills : </h2>
+		<ul id = "skills">
+			<li>Python</li>
+			<li>C++</li>
+			<li>Data Structures</li>
+			<li>HTML and CSS</li>
+		</ul>
 
-		<a href = "https://github.com/Varunkumar0812" target = "_blank" title = "Github">Github</a>
+		<h2>Education : </h2>
+		<div class = "edu">
+			<div class = "course">M.Sc Integrated Computer Science</div>
+			<div class = "year">2021 - 2026<br></div>
+            <div class = "insti">College of Engineering, Gunidy</div>
+            <div class = "grade">Grade : 9.45<br></div>
+        </div>
+        <p></p>
+        <div class = "edu">
+			<div class = "course">HSC</div>
+			<div class = "year">2020 - 2021<br></div>
+            <div class = "insti">Swaami Vivekanadha School, Chennai</div>
+            <div class = "grade">Grade : 95.11%<br></div>
+        </div>
+        <p></p>
+        <div class = "edu">
+			<div class = "course">SSLC</div>
+			<div class = "year">2018 - 2019<br></div>
+            <div class = "insti">Swaami Vivekanadha School, Chennai</div>
+            <div class = "grade">Grade : 94.6%<br></div>
+        </div>
 
-		<a href = "https://www.youtube.com/channel/UCDebI17U0SOMTKUA8BmivDA" target = "_blank" title = "Youtube">Youtube</a>
 
-		<h3>Subheading 1</h3>
-		<p>Hello my name is R VarunKumar Hello my name is R VarunKumar Hello my name is R VarunKumar Hello my name is R VarunKumar Hello my name is R VarunKumar Hello my name is R VarunKumar Hello my name is R VarunKumar</p>
+        <footer>
 
-		<h3>Subheading 2</h3>
-		<p>
-			Hello my name is R VarunKumar Hello my name is R VarunKumar Hello my name is R VarunKumar Hello my name is R VarunKumar Hello my name is R VarunKumar Hello my name is R VarunKumar Hello my name is R VarunKumar Hello my name is R VarunKumar
-		</p>
+		<h2>Contact Me : </h2>
+
+		<img src = "linkedin.png" height = "20" width = "20"></img><a id = "Linkedin" href = "https://www.linkedin.com/in/varunkumar-raman-6252b6240/" title = "Linked In" target = "_blank">Linked In</a>
+		<p></p>
+		<img src = "github.png" height = "20" width = "20"></img><a id = "Github" href = "https://github.com/Varunkumar0812" target = "_blank" title = "Github">Github</a>
+		<p></p>
+		<img src = "youtube.jpg" height = "20" width = "20"></img><a  id = "Youtube" href = "https://www.youtube.com/channel/UCDebI17U0SOMTKUA8BmivDA" target = "_blank" title = "Youtube">Youtube</a>
+		<p></p>
+		<img src = "gmail.jpg" height = "20" width = "20"></img><a  id = "Gmail" href = "https://mail.google.com/mail/u/0/#inbox" target = "_blank" title = "Gmail">Gmail</a>
+	</footer>
+
+
 	</body>
 </html>
