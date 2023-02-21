@@ -1,0 +1,1320 @@
+body {
+    font-family : "Poppins", sans-serif;
+}
+
+.nav {
+    background-color: white;
+    padding-top : 7px;
+    margin-left : 80px;
+    padding-bottom : 30px;
+    height : 35px;
+
+}
+
+#logo {
+    padding-top : 11px;
+    position : relative;
+    float : left;
+}
+
+.buttons {
+    text-decoration : none;
+    color : #808685;
+    font-size : 16px;
+    font-weight : 700;
+}
+
+.buttons-list  {
+    list-style-type : none;
+    margin-left : 0px;
+    position : relative;
+    float : left;
+}
+
+.buttons-li {
+    display : inline;
+    margin-right : 26px;
+}
+
+.reservate{
+    position : relative;
+    float : right;
+    background-color : #ff7629;
+	color: white;
+	border: 1px;
+    border-radius : 20px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    margin-right: 100px;
+    margin-top : 10px;
+    height : 40px;
+    width : 130px;
+    font-size : 14px;
+    font-weight : 700;
+}
+
+.order-online {
+    position : relative;
+    float : right;
+	background: none;
+	color: inherit;
+	border: 1.5px solid #d1d1d1; 
+    border-radius : 20px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    margin-right : 40px;
+    margin-top : 10px;
+    height : 40px;
+    width : 130px;
+    font-size : 14px;
+    font-weight : 700;
+}
+
+.main-content {
+    position : relative;
+
+}
+
+.orange {
+    position : absolute;
+    float : right;
+    background-color: #ff7629;
+    margin-top : 20px;
+    margin-left : 790px;
+    height : 470px;
+    width : 500px;
+}
+
+.burger  {
+    position : absolute;
+    float : right;
+    margin-left : 630px;
+    margin-top : 55px;
+    height : 400px;
+    width : 400px;
+    background-image: url('images/burger.jpeg');
+    background-size : cover;
+    border-radius : 10px;
+}
+
+.burger-title-1 {
+    font-size : 50px;
+    font-weight : 1000;
+    margin-left : 140px;
+    padding-top : 120px;
+}
+
+.burger-title-2 {
+    font-size : 50px;
+    font-weight : 1000;
+    color :#ff7629;
+    margin-left : 140px;
+}
+
+.burger-text {
+    margin-left : 140px;
+    letter-spacing: 0.3px;
+    font-size : 16px;
+    font-weight : 800;
+    margin-top : 8px;
+    color :#808685;
+    width : 480px;
+}
+
+.burger-reservate {
+    background-color : #ff7629;
+	color: white;
+	border: 1px;
+    border-radius : 20px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    margin-top : 13px;
+    margin-left : 140px;
+    height : 40px;
+    width : 130px;
+    font-size : 14px;
+    font-weight : 700;
+}
+
+.burger-order-online {
+    background-color : white;
+	color: black;
+	border: 1px solid #d1d1d1;
+    border-radius : 20px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    margin-right: 100px;
+    margin-top : 13px;
+    margin-left : 25px;
+    height : 40px;
+    width : 130px;
+    font-size : 14px;
+    font-weight : 700;
+}
+
+.postmates {
+    margin-top : 150px;
+    width : 500px;
+    position : relative;
+    margin-left : 450px;
+    font-size : 20px;
+     
+    font-weight : 1000;
+}
+
+.apps {
+    list-style: none;
+}
+
+.app {
+    display : inline;
+    margin-right : 50px;
+    height : 50px;
+    width : 100px;
+}
+
+.apps-list {
+    margin-left : 200px;
+
+}
+
+.section-3 {
+    margin-top : 130px;
+}
+
+#browse-head {
+    margin-left : 530px;
+    font-size : 23px;
+    font-weight : 1000;
+}
+
+.section-3-list {
+    list-style : none;
+    position : relative;
+    margin-top : 30px;
+
+}
+
+.section-3-items {
+    display : inline;
+
+}
+
+.section-3-box {
+    height : 400px;
+    width : 240px;
+    float : left;
+    border : 3px solid #cecfcf;
+    border-radius : 15px;
+    margin-left : 40px;
+
+}
+
+.section-3-img {
+    margin-top : 40px;
+    margin-left : 60px;
+}
+
+.section-3-title {
+    margin-top : 15px;
+    margin-left : 65px;
+    font-size  : 20px;
+    font-weight : 1000;
+}
+
+.section-3-con {
+    margin-top : 10px;
+    margin-left : 35px;
+    font-size : 16px;
+    font-weight : 1000;
+    letter-spacing : 0.2px;
+    color : #736869;
+}
+
+.section-3-but {
+    margin-left : 65px;
+    margin-top : 10px;
+    font-size : 16px;
+    font-weight : 1000;
+    color :#fe854d;
+}
+
+.section-3-button {
+    margin-top : 50px;
+    margin-left : 460px;
+    height : 40px;
+    width : 150px;
+    border-radius : 25px;
+    font-size : 14px;
+    font-weight : 1000; 
+}
+
+#order {
+    color : white;
+    background-color: #ff7629;
+    border : 0px;
+}
+
+#book {
+    color : rgb(0, 0, 0);
+    background-color: white;
+    border : 1px solid #736869;
+    margin-left : 30px;
+}
+
+#order:hover , #book:hover{
+    cursor : pointer;
+}
+
+.about-section {
+    background-color: #fef9f2;
+    height : 900px;
+    margin-top : 100px;
+    position : relative;
+
+}
+
+.img-section {
+    background-color: black;
+    height : 530px;
+    width : 450px;
+    border-radius : 25px;
+    margin-top : 150px;
+    margin-left : 150px;
+    background-image: url("images/burgers.jpeg");
+    background-size : cover; 
+    float : left;
+}
+
+.about-us {
+    height : 400px;
+    width : 430px;
+    float : right;
+    margin-right : 150px;
+    margin-top : 240px;
+}
+
+#about-us {
+    font-size : 30px;
+     
+    font-weight : 1000;
+}
+
+#about-us-content {
+     
+    font-size : 14px;
+    font-weight : 1000;
+    margin-top : 20px;
+    color:#808685;
+
+}
+
+.about-us-but {
+    height : 40px;
+    width : 150px;
+    border-radius : 25px;
+    margin-top : 25px;
+    margin-right : 30px;  
+    font-size: 14px;
+    font-weight : 1000;
+     
+
+}
+
+#join-us-but {
+    background-color: #ff7629;
+    color :white;
+    border : none;
+
+}
+
+#about-us-but {
+    background-color : white;
+    color :black;
+    border : 1px solid #a7a9a9;
+}
+
+#about-us-but:hover, #join-us-but {
+    cursor : pointer;
+}
+
+.contact-section {
+    background-color:white;
+    height : 300px;
+    width : 350px;
+    position : absolute;
+    float : left;
+    margin-left : 300px;
+    margin-top : 470px;
+    border-radius : 25px;
+}
+
+#come-visit-us {
+    margin-top : 40px;
+    margin-left : 40px;
+    font-size : 18px;
+    font-weight : 1000;
+}
+
+.icons {
+    margin-left : 40px;
+    margin-top : 20px;
+    position : relative;
+}
+
+#map-details {
+    position : absolute;
+    float : right;
+    margin-left : 20px;
+    font-size :15px;
+    font-weight : 1000;
+    color :#808685;
+}
+
+#phone-details {
+    position : absolute;
+    float : right;
+    margin-left : 20px;
+    margin-top : 40px;
+    font-size :15px;
+    font-weight : 1000;
+    color :#808685;
+}
+
+#email-details {
+    position : absolute;
+    float : right;
+    margin-left : 20px;
+    margin-top : 30px; 
+    font-size :15px;
+    font-weight : 1000;
+    color :#808685;
+}
+
+.browse-menu {
+    text-align : center;
+    font-size : 30px;
+    font-weight : 1000;
+     
+}
+
+.browse-menu-content {
+    font-size : 16px;
+    font-weight : 1000; 
+    margin-left : 300px;
+    margin-top : 30px;
+    color :#808685;
+}
+
+.browse-outline {
+    padding-left : 50px;
+    height: 800px;
+}
+
+.browse-list {
+    list-style : none;
+    position : relative;
+}
+
+.browse-items {
+    display : inline;
+    position : relative;
+}
+
+.browse-box {
+    height : 360px;
+    width : 250px;
+    border-radius : 30px;
+    background-color :white;
+    float : left;  
+    margin-left : 20px; 
+    margin-top : 20px;
+}
+
+#browse-img {
+    height : 250px;
+    width : 250px;
+    border-radius : 30px;
+    background-size :cover;
+}
+
+#browse-price {
+    position : relative;
+    margin-top : -240px;
+    margin-right : 10px;
+    background-color: white;
+    padding : 5px;
+    font-weight : 1000;
+    font-size : 16px;
+    float : right;
+    border-radius: 15px;
+}
+
+#browse-title {
+    text-align : center;
+    margin-top : 20px;
+    font-size : 20px;
+    font-weight : 1000;
+    letter-spacing : 0.3px;
+}
+
+#browse-content {
+    text-align : center;
+    margin-top : 10px;
+    font-size : 14px;
+    font-weight : 1000;
+    letter-spacing : 0.3px; 
+    color :#808685;
+}
+
+.browse-buttons {
+    padding-left : 30px;
+    width : 350px;
+    height : 40px;
+    margin : auto;
+}
+
+.browse-buttons > #order-online {
+    height : 40px;
+    width : 150px;
+    border-radius : 20px;
+    border: none;
+    background-color: #ff7629;
+    font-size : 16px;
+    font-weight : 1000;
+    color :white;  
+}
+
+.browse-buttons > #book-a-table {
+    height : 40px;
+    width : 150px;
+    margin-left : 30px;
+    border-radius : 20px;
+    border: 1px solid #808685;
+    background-color:white;
+    font-size : 16px;
+    font-weight : 1000;
+     
+
+}
+
+.browse-buttons > #order-online:hover, .browse-buttons > #book-a-table:hover{
+    cursor : pointer;
+}
+
+
+.los-angles {
+    margin-top : 200px;
+    height : 700px;
+    background-color: #ff7629;
+    position : relative;
+}
+
+#big-burger-img {
+    float : right;
+    height : 700px;
+    width : 680px;
+    background-image : url("images/big-burger-img.jpeg");
+    background-size : cover;
+}
+
+.los-angles-content {
+    float : right;
+    height : 400px;
+    width  :400px;
+    margin-left : 140px;
+    margin-right : 40px;
+    margin-top : 200px;
+}
+
+#los-angles-title {
+    font-size: 35px;
+    font-weight : 1000;
+    color : white;
+}
+
+#los-angles-content {
+    font-size : 14px;
+     
+    font-weight:  1000;
+    margin-top : 30px;
+    color : white;
+}
+
+#los-order-online {
+    height : 40px;
+    width : 150px;
+    background-color:white;
+    color : black;
+    font-size : 16px;
+    font-weight : 1000;
+    border-radius: 25px;
+    margin-top : 30px;
+    border : 1px solid #a7a4a2;
+}
+
+
+#los-reservate {
+    height : 40px;
+    width : 150px;
+    margin-left : 20px;
+    margin-top : 30px;
+    background-color: #ff7629;
+    color : white;
+    font-size : 16px;
+    font-weight : 1000;
+    border-radius: 25px;
+    border : 1px solid white;
+}
+
+#los-order-online:hover, #los-reservate {
+    cursor : pointer;
+}
+
+.cust-reviews {
+    margin-top : 150px;
+}
+
+#cust-reviews-title {
+    text-align : center;
+    font-size : 30px;
+    margin-top : 10px;
+    font-weight : 1000;
+}
+
+#cust-reviews-content {
+    margin-left : 300px;
+    font-size: 16px;
+    font-weight : 1000;
+    color :#808685;
+    margin-top : 20px;
+}
+
+.cust-reviews-container {
+    position : relative;
+    height : 400px;
+    margin-top : 10px;
+    margin-left : 200px;
+}
+
+#cust-review-left-arrow {
+    background-image : url("images/left-arrow.svg");
+    background-color: #ff7629;
+    border-radius : 30px;   
+    border : 5px solid #ff7629;
+    height : 50px;
+    width : 50px;
+    float : left;
+    margin-top : 110px;
+}
+
+#cust-reviews-right-arrow {
+    background-image : url("images/right-arrow.svg");
+    background-color: #ff7629;
+    border-radius : 30px;   
+    border : 5px solid #ff7629;
+    height : 50px;
+    width : 50px;
+    float : right;
+    margin-right : 200px;
+    margin-top : 110px;
+}
+
+.cust-center-box {
+    height : 280px;
+    width : 650px;
+    border : 3px solid #d4d4d5;
+    border-radius : 25px;
+    margin-left : 100px;
+    margin-top : 15px;
+}
+
+.cust-stars-class {
+    margin-top  : 50px;
+    margin-left : 10px;
+}
+
+.cust-stars {
+    background-image: url("images/star.svg");
+    height : 30px;
+    width : 30px; 
+    display : inline-block;
+    margin-left : 3px;
+}
+
+#cust-center-quote {
+    font-size : 22px;
+    font-weight : 1000;
+    margin-left : 40px;
+    margin-top : 5px;
+}
+
+#cust-center-review {
+    font-size : 13px;
+    font-weight : 1000;
+    margin-left: 40px;
+    margin-top : 10px;
+    color :#808685;
+}
+
+.cust-person {
+    position : relative;
+    margin-left : 40px;
+    margin-top : 15px;
+}
+
+#cust-profile {
+    float : left;
+    height : 50px;
+    width  : 50px;
+    border-radius : 25px;
+    background-image: url("images/matt-damon.jpg");
+    background-size: cover;
+}
+
+.cust-person-detials {
+    float : left;
+    margin-left : 100px;
+}
+
+#cust-name {
+    font-size : 14px;
+     
+    font-weight : 1000;
+    margin-left : 80px;
+}
+
+#cust-state {
+    font-size : 14px;
+     
+    font-weight : 1000;
+    margin-left : 80px; 
+    color : #808685;
+}
+
+.cust-buttons {
+    margin-top : 80px;
+    text-align : center;
+    width : 870px;
+    border-bottom : 150px solid white;
+}
+
+#cust-order-online {
+    height : 40px;
+    width : 130px;
+    background-color: #ff7629;
+    border : none;
+    border-radius : 25px;
+    font-size: 14px;
+     
+    font-weight : 1000;
+    color : white;
+    margin-right : 30px;
+}
+
+#cust-book-a-table {
+    height : 40px;
+    width : 130px;
+    background-color: white;
+    border : 1px solid #d4d4d5;
+    border-radius : 25px;
+    font-size: 14px;
+     
+    font-weight : 1000;
+}
+
+#cust-order-online:hover, #cust-book-a-table {
+    cursor : pointer;
+}
+
+.article {
+    height : 1000px;
+    margin-top : 150px;
+    background-color: #fef9f2;
+    position : relative;
+}
+
+.article-title {
+    margin-top : 150px;
+    margin-left : 100px;
+    float : left;
+    position : relative;
+    background-color: #fef9f2;
+    width : 1050px;
+}
+
+#our-article {
+    float : left;
+    font-size : 30px;
+     
+    font-weight : 1000;
+}
+
+#articles-browse {
+    float : right;
+    padding : 15px;
+    background-color: white;
+    border-radius : 25px;
+}
+
+.article-center-box {
+    height : 700px;
+    width : 1050px;
+    float : left;
+    margin-left : 100px;
+    margin-top : 25px;
+    position : relative;
+}
+
+.big-article {
+    height : 650px;
+    width : 450px;
+    float : left;
+    margin-top : 25px;
+    margin-left : 25px;
+    margin-right : 25px;
+}
+
+.small-articles {
+    height : 700px;
+    width : 550px;
+    float : left;
+    position : relative;
+}
+
+.small-article {
+    height : 305px;
+    width : 230px;
+    float : left;
+    margin-left : 30px;
+    margin-top : 25px;
+}
+
+#big-article-image {
+    background-image : url("images/article-burger.jpeg");
+    background-size : cover;
+    height : 450px;
+    width : 450px;
+    border-top-left-radius: 40px;
+    border-top-right-radius : 40px;
+}
+
+#big-article-date {
+    margin-left : 20px;
+    margin-top : 20px;
+    font-size: 16px;
+     
+    font-weight : 1000;
+    color :#808685;
+}
+
+#big-article-title {
+    margin-left : 20px;
+    margin-top : 8px;
+    font-size : 22px;
+     
+    font-weight : 1000;
+}
+
+#big-article-content {
+    margin-left : 20px;
+    margin-top : 8px;
+    font-size: 14px;
+     
+    font-weight : 1000;
+    color :#808685;
+}
+
+.small-article-image {
+    height : 200px;
+    background-size : cover;
+    border-top-left-radius : 40px;
+    border-top-right-radius : 40px;
+}
+
+.small-article-date {
+    margin-left : 15px;
+    margin-top : 15px;
+    font-size : 14px;
+     
+    font-weight : 1000;
+    color :#808685;
+}
+
+.small-article-title {
+    margin-top : 8px;
+    margin-left : 15px;
+    font-size: 14px;
+     
+    font-weight : 1000;
+}
+
+.booking-outer {
+    height : 1000px;
+    position : relative;
+}
+
+#booking-back {
+    height : 1000px;
+    width : 550px;
+    position : relative;
+    float : right;
+    background-color: #ff7629;
+}
+
+.booking-content {
+    height : 500px;
+    width : 400px;
+    float : left;
+    margin-top : 350px;
+    margin-left : 100px;
+}
+
+.booking-enter {
+    background-color: white;
+    height : 800px;
+    width : 565px;
+    position : absolute;
+    float: right;
+    margin-left : 550px;
+    margin-top : 100px;
+    border-radius : 30px;
+    border : 4px solid #808685;
+}
+
+#booking-title {
+    font-size : 30px;
+    font-weight : 1000;
+     
+}
+
+#booking-content-words {
+    margin-top : 20px;
+    font-size : 14px;
+    font-weight : 1000;
+     
+    color :#a7a4a2;
+}
+
+.booking-location {
+    height : 200px;
+    width : 400px;
+    margin-top : 20px;
+    position : relative;
+}
+
+#booking-loca-map-image {
+    background-image: url("images/map-icon.svg");
+    background-size : cover;
+    height : 40px;
+    width : 30px;   
+    float : left;
+}
+
+#booking-loca-add {
+    font-size : 14px;
+     
+    font-weight: 1000;
+    color :#a7a9a9;
+    margin-left : 50px;
+}
+
+#booking-loca-ph-image {
+    height : 40px;
+    width : 40px;
+    background-image: url("images/phone-icon.svg");
+    background-size: cover;
+    margin-top : 20px;
+    float : left;
+}
+
+#booking-loca-ph {
+    font-size : 14px;
+     
+    font-weight: 1000;
+    color :#a7a9a9;
+    float : left;
+    margin-top : 30px;
+    margin-left : 10px;
+}
+
+#booking-loca-email-image {
+    height : 30px;
+    width : 40px;
+    background-image: url("images/email.svg");
+    background-size: cover;
+    float : left;
+    margin-top : 30px;
+    margin-right : 400px;
+}
+
+#booking-loca-email {
+    font-size : 14px;
+     
+    font-weight: 1000;
+    color :#a7a9a9;
+    float : left;
+    margin-top : -20px;
+    margin-left : 50px;
+}
+
+.booking-first-line {
+    margin-top : 90px;
+    margin-left : 50px;
+    font-size: 17px;
+    font-weight : 1000;
+     
+}
+
+#line1-one {
+    float : left;
+}
+
+#line1-two {
+    float : left;
+    margin-left : 200px;
+}
+
+.booking-second-line {
+    margin-left : 50px;
+    margin-top : 130px;
+}
+
+#line2-one {
+    height : 40px;
+    width : 220px;
+    border-radius : 25px;
+    border: 1px solid #a7a9a9;
+    color :#a7a4a2;
+}
+
+#line2-two   {
+    height : 40px;
+    width : 220px;
+    border-radius : 25px;
+    margin-left : 30px;
+    border: 1px solid #a7a9a9;
+    color :#a7a4a2;
+}
+
+.booking-third-line {
+    margin-top : 40px;
+    margin-left : 50px;
+    font-size: 17px;
+    font-weight : 1000;
+     
+}
+
+#line3-one {
+    float : left;
+}
+
+#line3-two {
+    float : left;
+    margin-left : 200px;
+}
+
+.booking-fourth-line {
+    margin-left : 50px;
+    margin-top : 80px;
+}
+
+#line4-one {
+    height : 40px;
+    width : 220px;
+    border-radius : 25px;
+    border: 1px solid #a7a9a9;
+    color :#a7a4a2;
+}
+
+#line4-two   {
+    height : 40px;
+    width : 220px;
+    border-radius : 25px;
+    margin-left : 30px;
+    border: 1px solid #a7a9a9;
+    color :#a7a4a2;
+}
+
+.booking-fifth-line {
+    margin-top : 40px;
+    margin-left : 50px;
+    font-size: 17px;
+    font-weight : 1000;
+     
+}
+
+#line5-one {
+    float : left;
+}
+
+#line5-two {
+    float : left;
+    margin-left : 215px;
+}
+
+.booking-sixth-line {
+    margin-left : 50px;
+    margin-top : 80px;
+}
+
+#line6-one {
+    height : 40px;
+    width : 220px;
+    border-radius : 25px;
+    border: 1px solid #a7a9a9;
+    color :#a7a4a2;
+}
+
+#line6-two   {
+    height : 40px;
+    width : 220px;
+    border-radius : 25px;
+    margin-left : 30px;
+    border: 1px solid #a7a9a9;
+    color :#a7a4a2;
+}
+
+.booking-seventh-line {
+    margin-top : 40px;
+    margin-left : 50px;
+    font-size: 17px;
+    font-weight : 1000;
+     
+}
+
+#line7-one {
+    float : left;
+}
+
+.booking-eigth-line {
+    margin-left : 50px;
+    margin-top : 80px;
+}
+
+#line8-one {
+    height : 200px;
+    width : 470px;
+    border-radius : 25px;
+    border: 1px solid #a7a9a9;
+    color :#a7a4a2;
+    text-align : center;
+}
+
+.booking-ninth-line {
+    margin-top : 40px;
+    margin-left : 50px;
+}
+
+#booking-button {
+    height : 40px;
+    width : 150px;
+    color : white;
+    background-color: #ff7629;
+    border-radius : 25px;
+    border : none;
+    font-size : 16px;
+}
+
+#booking-button:hover {
+    cursor : pointer;
+}
+
+
+.insta {
+    height : 700px;
+    background-color: #fef9f2;
+    position : relative;
+}
+
+.insta-title {
+    float : left;
+    margin-top : 150px;
+    margin-left : 90px;
+    width : 1050px;
+    position : relative;
+}
+
+#insta-title {
+    font-size: 30px;
+    font-weight : 1000;
+     
+    width  : 400px;
+}
+
+#insta-follow {
+    float : right;
+    font-size : 16px;
+    font-weight : 1000;
+     
+    border-radius : 30px;
+    padding : 15px;
+    background-color: #ff7629;
+    width : 100px;
+    text-align : center;
+    color :white;
+}
+
+.insta-center {
+    height : 300px;
+    width : 970px;
+    float : left;
+    margin-left : 120px;
+    margin-top : 30px;
+}
+
+#insta-first {
+    float : left;
+    height : 300px;
+    width : 300px;
+    background-image: url("images/insta-burger.jpeg");
+    background-size : cover;
+    border-radius : 30px;
+}
+
+#insta-second {
+    float : left;
+    height : 300px;
+    width : 300px;
+    margin-left : 30px;
+    background-image: url("images/insta-fries.jpeg");
+    background-size : cover;
+    border-radius : 30px;
+}
+
+#insta-third {
+    float : left;
+    height : 300px;
+    width : 310px;
+    margin-left : 30px;
+}
+
+.insta-third-obj {
+    height : 140px;
+    width : 134px;
+    float : left;
+    margin-left : 5px;
+    margin-right : 16px;
+    margin-bottom : 20px;
+    background-size : cover;
+    border-radius : 30px;
+}
+
+.footer {
+    height : 400px;
+    background-color: white ;
+    position : relative;
+    padding-left : 100px;
+    padding-top : 100px;
+}
+
+.footer-one {
+    float : left;
+    height : 350px;
+    width  : 300px;
+    margin-left : 50px;
+    position : relative;
+}
+
+#footer-one-content {
+    font-size : 14px;
+     
+    font-weight: 1000;
+    margin-top : 20px;
+    color :#736869;
+}
+
+.footer-stars {
+    background-image: url("images/star.svg");
+    height : 30px;
+    width : 30px; 
+    display : inline-block;
+    margin-left : 3px;
+}
+
+.footer-stars-out {
+    margin-top : 20px;
+    position : absolute;
+}
+
+.footer-list-one {
+    float : left;
+    height : 300px;
+    width : 100px;
+    margin-left : 50px;
+}
+
+.footer-list-two {
+    height : 300px;
+    width : 100px;
+    margin-left : 20px;
+    float : left;
+    position : relative;
+}
+
+#footer-list-one-title {
+    font-size : 20px;
+     
+    font-weight : 1000;
+}
+
+
+#footer-list-two-title {
+    font-size : 20px;
+     
+    font-weight : 1000;
+}
+
+#footer-list-one-ul {
+    list-style-type : none;
+    position : absolute;
+    float  : left;
+    font-size : 14px;
+    font-weight : 1000;
+     
+    margin-left : 10px;
+    margin-top : 50px;
+    line-height : 200%;
+    color :#808685;
+}
+
+
+#footer-list-two-ul {
+    list-style-type : none;
+    position : absolute;
+    float  : left;
+    font-size : 14px;
+    font-weight : 1000;
+     
+    margin-left : 130px;
+    margin-top : 50px;
+    line-height : 200%;
+    color :#808685;
+}
+
+#footer-three-title {
+    font-size: 20px;
+     
+    font-weight : 1000;
+}
+
+.footer-three-container {
+    height : 300px;
+    width : 300px;
+    margin-top : 20px;
+    position : relative;
+}
+
+.footer-three-image {
+    height : 130px;
+    width : 130px;
+    margin-right : 20px;
+    float : left;
+    margin-bottom : 20px;
+    border-radius: 25px;
+    background-size : cover;
+}
